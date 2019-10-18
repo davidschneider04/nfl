@@ -19,9 +19,6 @@ import plotly.graph_objs as go
 import plotly.figure_factory as ff
 
 
-# In[2]:
-
-
 # dev
 pd.set_option('display.max_rows', 500)
 
