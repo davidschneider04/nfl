@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.6"
+
+[packages]
+ics = "*"
+python-dateutil = "*"
+psycopg2-binary = "*"
+django-heroku = "*"
+gunicorn = "*"
+django-bootstrap4 = "*"
+django-taggit = "*"
+django-autocomplete-light = "*"
+django-formtools = "*"
+django-storages = "*"
+dash = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+plotly = "*"
+scikit-image = "*"
+
+
+
+
+[dev-packages]
