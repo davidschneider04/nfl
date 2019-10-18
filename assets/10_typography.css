@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.Select-control {
+  border-radius: 0px;
+  border: 2px solid;
+}
+
+.Select-value-label {
+  background-color: #012800;
+  color: #cfcfcf;
+  padding: 3px 4px;
+}
+
+.Select--multi .Select-value {
+  background-color: #024e00 !important;
+  border: 1px solid #024e00 !important;
+  color: #cfcfcf !important;
+  margin-top: 5px;
+}
+.Select--multi .Select-value:hover {
+  color: #cfcfcf !important;
+}
+
+.Select-value-icon {
+  border-right: 1px solid #024e00 !important;
+  color: #cfcfcf;
+}
+.Select-value-icon:hover {
+  color: #cfcfcf !important;
+}
+
+.has-value.Select--single > .Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+  color: #cfcfcf;
+}
+
+input#highlighted-team-dropdown {
+  color: #cfcfcf;
+}
+
+/*# sourceMappingURL=10_typography.css.map */

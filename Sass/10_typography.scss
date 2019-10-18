@@ -1,0 +1,44 @@
+$forestgreen: #012800;
+$green: #024e00;
+$lightgray: #cfcfcf;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Select-control {
+	border-radius: 0px;
+	border: 2px solid;
+}
+
+.Select-value-label {
+	background-color: $forestgreen;
+	color: $lightgray;
+	padding: 3px 4px;
+}
+
+.Select--multi .Select-value {
+	background-color: $green !important;
+	border: 1px solid $green !important;
+	color: $lightgray !important;
+	margin-top: 5px;
+	&:hover {
+		color: $lightgray !important;
+	}
+}
+
+.Select-value-icon {
+	border-right: 1px solid $green !important;
+	color: $lightgray;
+	&:hover {
+		color: $lightgray !important;
+	}
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+    color: $lightgray;
+}
+
+input#highlighted-team-dropdown {
+    color: $lightgray;
+}

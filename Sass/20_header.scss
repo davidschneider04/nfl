@@ -1,0 +1,53 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+$forestgreen: #012800;
+$green: #024e00;
+
+h1 {
+	background-color: #012800;
+    border-bottom: thin lightgrey solid;
+    font-family: Lato;
+    color: #cfcfcf;
+	font-size: 22px;
+    height: 80px;
+    line-height: 60px;
+    padding-left: 25px;
+    margin:0;
+}
+
+h2 {
+	background-color: #012800;
+    border-bottom: thin lightgrey solid;
+    font-family: Lato;
+    color: #cfcfcf;
+	font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 10px;
+}
+
+/*DISQUS STUFF*/
+div#disqus_thread {
+    grid-column: 2 / span 1;
+    grid-row: 4;
+    margin: 0 5vw 2.5vh 5vw;
+    @media screen and (min-aspect-ratio: 5/2) {
+        display: none;
+    }
+}
+
+li#thread-share-bar {
+    display: none;
+}
+
+li.install.disqus-footer__item {
+    display: none;
+}
+
+.publisher-anchor-color a {
+    color: $forestgreen !important;
+}
+
+#no-posts {
+    display: none !important;
+}
